@@ -7,25 +7,48 @@
     <table id = "header">
       <tr>
         <th><h1 id="headerTitle">PUERTO RICO AIRLINES</h1></th>
-        <th><button class ='menu'>HOME</button></th>
-        <th><button class ='menu'>FLIGHTS</button></th>
-        <th><button class ='menu'>SUPPORT</button></th>
-        <th><button class ='menu'>LOGIN</button></th>
+        <th><button class ='button'>HOME</button></th>
+        <th><button class ='button'>FLIGHTS</button></th>
+        <th><button class ='button'>SUPPORT</button></th>
+        <th><button class ='button'>LOGIN</button></th>
       </tr>
     </table>
   </head>
   <body id = "bodyContent">
     <table class = "infoBubbles">
-      <tr>
-        <th>
-          <table class = 'bubble'>
-            <tr><h2>Flights</h2></tr>
-            <tr><p>Come check our sweet flights! Direct flights available daily!</p></tr>
+      <tbody>
+        <tr class = "row">
+          <td class = "bubble"> 
+                <h2 class= 'tableElement title'>Flights</h2>
+                <p class= 'tableElement'>Come check our sweet flights! Direct flights available daily!</p>
+                <button class = 'button tableElement'>Lets go</button>
+          </td>
 
-          </table>
-        </th>
+          <td class = "bubble"> 
+            <h2 class= 'tableElement title'>Group Trips</h2>
+            <p class= 'tableElement'>We offer great group rates! For families with 4 members to huge groups of 50+!</p>
+            <button class = 'button table Element'>Lets go</button>
+            <br>
+          </td>
+
+          <td class = "bubble"> 
+            <h2 class= 'tableElement title'>Discount Flights</h2>
+            <p class= 'tableElement'>For the broke people who can't afford first class and champagne.</p>
+            <button class = 'button tableElement'>Lets go</button>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+
+    <table id = "bottomTable">
+      <tr class = 'row'>
+        <td class = 'bubble'>
+          <h2 class = 'title'>Flights</h2>
+          <p>Come check our sweet flights! Direct flights available daily!</p>
+          <button class = 'button'>Lets go</button>
+        </td>
       </tr>
-      
     </table>
 
   </body>
